@@ -16,13 +16,12 @@ toString()-java.lang.Object#toString()Ljava/lang/String;"
 wait()java.lang.Object#wait()V$
 wait(J)java.lang.Object#wait(J)V&
 wait(JI)java.lang.Object#wait(JI)V&
-wait0(J)java.lang.Object#wait0(J)V°
+wait0(J)java.lang.Object#wait0(J)V÷
 !main.java.com.practica.Calculatorjava.lang.Object7
 <init>()+main.java.com.practica.Calculator#<init>()V;
 
 divide(II)-main.java.com.practica.Calculator#divide(II)IJ
-	status(I)=main.java.com.practica.Calculator#status(I)Ljava/lang/String;7
-unused()+main.java.com.practica.Calculator#unused()V(
+	status(I)=main.java.com.practica.Calculator#status(I)Ljava/lang/String;(
 java.io.Serializablejava.lang.Object(
 java.lang.Comparablejava.lang.Objectƒ
 java.lang.CharSequencejava.lang.ObjectE
@@ -207,25 +206,14 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;]
 valueOf(Z)-java.lang.String#valueOf(Z)Ljava/lang/String;=
 valueOf([C).java.lang.String#valueOf([C)Ljava/lang/String;A
 valueOf([CII)0java.lang.String#valueOf([CII)Ljava/lang/String;M
-valueOfCodePoint(I)6java.lang.String#valueOfCodePoint(I)Ljava/lang/String;(
-java.lang.Appendablejava.lang.Object+
-java.lang.AutoCloseablejava.lang.Object>
-java.io.Closeablejava.lang.AutoCloseablejava.lang.Object%
-java.io.Flushablejava.lang.Objectƒ
+valueOfCodePoint(I)6java.lang.String#valueOfCodePoint(I)Ljava/lang/String;ƒ
 java.io.OutputStreamjava.io.Closeablejava.io.Flushablejava.lang.Object*
 <init>()java.io.OutputStream#<init>()V(
 close()java.io.OutputStream#close()V(
 flush()java.io.OutputStream#flush()VS
 nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
 	write([B)java.io.OutputStream#write([B)V0
-write([BII)!java.io.OutputStream#write([BII)VŽ
-java.io.FilterOutputStreamjava.io.OutputStream\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-close()#java.io.FilterOutputStream#close()V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V2
-	write([B)%java.io.FilterOutputStream#write([B)V6
-write([BII)'java.io.FilterOutputStream#write([BII)Vï(
+write([BII)!java.io.OutputStream#write([BII)Vï(
 java.io.PrintStreamjava.io.Closeablejava.io.FilterOutputStreamjava.lang.AppendableE
 <init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vi
 (<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)Vy
@@ -300,11 +288,22 @@ setError()java.io.PrintStream#setError()Vl
 	write([C)java.io.PrintStream#write([C)V5
 writeBytes([B)#java.io.PrintStream#writeBytes([B)VO
 writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V/
-writeln([C) java.io.PrintStream#writeln([C)V½
+writeln([C) java.io.PrintStream#writeln([C)V(
+java.lang.Appendablejava.lang.ObjectŽ
+java.io.FilterOutputStreamjava.io.OutputStream\
+<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
+close()#java.io.FilterOutputStream#close()V.
+flush()#java.io.FilterOutputStream#flush()V0
+write(I)$java.io.FilterOutputStream#write(I)V2
+	write([B)%java.io.FilterOutputStream#write([B)V6
+write([BII)'java.io.FilterOutputStream#write([BII)V+
+java.lang.AutoCloseablejava.lang.Object>
+java.io.Closeablejava.lang.AutoCloseablejava.lang.Object½
 
 Calculatorjava.lang.Object 
 <init>()Calculator#<init>()V$
 
 divide(II)Calculator#divide(II)I3
 	status(I)&Calculator#status(I)Ljava/lang/String; 
-unused()Calculator#unused()V
+unused()Calculator#unused()V%
+java.io.Flushablejava.lang.Object
