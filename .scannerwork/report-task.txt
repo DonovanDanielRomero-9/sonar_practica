@@ -1,0 +1,7 @@
+organization=donovandanielromero-9
+projectKey=DonovanDanielRomero-9_-sonar-practica
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.88517
+dashboardUrl=https://sonarcloud.io/dashboard?id=DonovanDanielRomero-9_-sonar-practica
+ceTaskId=AZ5rGSoo-jOBw3h7ynjM
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ5rGSoo-jOBw3h7ynjM
